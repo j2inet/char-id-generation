@@ -1,0 +1,13 @@
+{
+  "name": "char-id-generation",
+  "version": "1.0.0",
+  "description": "Fill the char_id column of a CSV with generated 6-character alphabetic IDs, skipping profane IDs.",
+  "main": "makeCharID.js",
+  "bin": {
+    "make-char-id": "./makeCharID.js"
+  },
+  "scripts": {
+    "start": "node makeCharID.js"
+  },
+  "license": "MIT"
+}
